@@ -1,0 +1,174 @@
+.main {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    grid-area: 'm';
+}
+
+.mainBlock {
+    height: 100vh;
+    background-image: url('../../media/moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBlock h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 50pt;
+    font-family: 'Comic Sans Ms';
+    /* border-bottom: 5px solid burlywood; */
+}
+
+.mainBlock span {
+    color: burlywood;
+}
+
+.mainBlock h3 {
+    font-size: 30pt;
+    font-family: consolas;
+}
+
+.mainBlock p {
+    font-size: 24pt;
+    font-family: 'Lucida';
+    font-weight: 900;
+    color: whitesmoke;
+    border-bottom: 5px solid burlywood;
+    border-left: 5px solid burlywood;
+    padding: 5px;
+}
+
+.textblock {
+    display: inline-block;
+    width: 700px;
+}
+
+.mainBlock img {
+    height: 450px;
+    width: 450px;
+    border: 3px solid burlywood;
+    border-radius: 220px;
+}
+
+.info {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.infoFirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.infoFirst p {
+    padding: 15px;
+    margin: 0;
+    font-size: 24pt;
+    font-family: 'Lucida';
+    font-weight: 500;
+    color: whitesmoke;
+    border-left: 4px solid blanchedalmond;
+    border-bottom: 4px solid blanchedalmond;
+    ;
+}
+
+.infoFirst img {
+    height: 200px;
+    width: 300px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+.infoFirstText {
+    width: 30vw;
+}
+
+.infoSecond {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    background-color: rgba(53, 49, 49);
+}
+
+.infoSecond h4 {
+    font-size: 24pt;
+    font-family: 'consolas';
+    padding-top: 5px;
+}
+
+.infoBlocks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-family: 'consolas';
+    font-size: 16pt;
+
+}
+
+.infoBlocks img {
+    width: 180px;
+    height: 150px;
+}
+
+.reactBlock, .reduxBlock, .javaScriptBlock, .jQueryBlock, .cssBlock, .htmlBlock {
+    width: 16vw;
+}
+
+.reactBlock {}
+
+.reduxBlock {}
+
+.javaScriptBlock {}
+
+.jQueryBlock {}
+
+.cssBlock {}
+
+.htmlBlock {}
+
+.animateBlock {
+    animation-duration: 3s;
+    animation-name: animate-block;
+}
+
+.animateBlockFourSec {
+    animation-duration: 4s;
+    animation-name: animate-block;
+}
+
+.animateBlockFiveSec {
+    animation-duration: 5s;
+    animation-name: animate-block;
+}
+.animateBlockOneSec{
+    animation-duration: 1s;
+    animation-name: animate-block;
+}
+.animateBlockTwoSec{
+    animation-duration: 2s;
+    animation-name: animate-block;
+}
+.animateBlockThreeSec{
+    animation-duration: 2s;
+    animation-name: animate-block;
+}
+@keyframes animate-block {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
